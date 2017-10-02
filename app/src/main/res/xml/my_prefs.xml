@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Weather">
+    <ListPreference
+        android:title="Unit of temperature"
+        android:summary="Select your prefered unit of temperature"
+        android:key="temperature"
+        android:entries="@array/unit_of_temperatures"
+        android:entryValues="@array/unit_of_temperatures"
+        android:defaultValue="Centigrade"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="News">
+    </PreferenceCategory>
+</PreferenceScreen>
